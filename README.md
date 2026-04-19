@@ -11,7 +11,6 @@ This package contains the custom Jupyter notebook used to perform the 1D multi-c
 
 ## Notes
 
-- The bundled notebook was copied from the original working notebook and expects an input Excel file at `data/260204_numerical_solution.xlsx`.
 - The experimental input data file is not included in this public package.
 - The bundled notebook was cleaned for sharing by removing duplicated development cells and excluding unvalidated electric-field and position-dependent diffusion-coefficient outputs.
 
@@ -23,5 +22,5 @@ The notebook expects a Python 3 environment with the packages listed in `require
 
 1. Install the required packages.
 2. Open `1D_Multi-component_Transient_Nernst-Planck_Model.ipynb`.
-3. Provide the input Excel file at `data/260204_numerical_solution.xlsx`.
+3. Provide the required input dataset.
 4. Run the notebook cells in order.
